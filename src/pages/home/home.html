@@ -3,16 +3,30 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Home</ion-title>
+    <ion-title>
+      Home
+    </ion-title>
   </ion-navbar>
 </ion-header>
-
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
-
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
-
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+<ion-content padding id="page1">
+  <h1 id="home-heading1" style="color:#000000;">
+    PerguntASC
+  </h1>
+  <div id="home-markdown1" style="text-align:justify;" class="show-list-numbers-and-dots">
+    <p style="color:#000000;font-size:15px;">
+      PerguntASC é um aplicativo de celular que está sendo desenvolvido no DMS-FMRP-USP. Consiste em um jogo de perguntas e respostas, baseado em casos; que versam sobre temas da disciplina de Atenção à Saúde da Comunidade I.
+    </p>
+  </div>
+  <h4 id="home-heading2" style="color:#000000;">
+    Para começar, clique no botão abaixo
+  </h4>
+  <button id="home-button1" ion-button color="positive" block on-click="goToQuestionario()">
+    Começar!
+  </button>
+  <h4 id="home-heading3" style="color:#000000;">
+    Prefere somente ler os casos e depois responder? clique abaixo
+  </h4>
+  <button id="home-button2" ion-button color="positive" block on-click="goToBancoDeCasos()">
+    Banco de Casos
+  </button>
 </ion-content>

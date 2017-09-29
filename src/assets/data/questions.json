@@ -1,0 +1,63 @@
+{
+    "questions": [
+ 
+        {
+            "questionText": "How many Silmarils are there?",
+            "flashCardBack": "Three",
+            "flashCardFlipped": false,
+            "answers": [
+                {"answer": "Three", "correct": true, "selected": false},
+                {"answer": "Five", "correct": false, "selected": false},
+                {"answer": "Seven", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "questionText": "How many Istari are there?",
+            "flashCardBack": "Five",
+            "flashCardFlipped": false,
+            "answers": [
+                {"answer": "Seven", "correct": false, "selected": false},
+                {"answer": "Five", "correct": true, "selected": false},
+                {"answer": "Three", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "questionText": "Qual a melhor conduta para ajudar Vitória?",
+            "flashCardBack": "A Maiar",
+            "flashCardFlipped": false,
+            "answers": [
+                {
+                    "answer": "Dar alta à Vitória, mas manter João na maternidade, devido aos riscos de desnutrição e adoecimento da criança, sendo que a mãe poderá visitá-lo quando desejar.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Dar alta à Vitória e João somente após a família conseguir um fundo de doações para ajudar a família em casa nos primeiros meses da criança",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Dar alta aos dois, entrar em contato com a assistência social e com o posto de saúde do bairro dela, para oferecer um método contraceptivo e a fórmula láctea, via recursos do Sistema Único de Saúde (SUS).",
+                    "correct": true,
+                    "selected": false
+                },
+                {
+                    "answer": "Não dar alta à mãe e ao filho, devido aos riscos de nova gravidez para ela e de desnutrição para a criança, até que o conselho tutelar ofereça um abrigo com condições a eles.",
+                    "correct": false,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "questionText": "Morgoth's true name is",
+            "flashCardBack": "Melkor",
+            "flashCardFlipped": false,
+            "answers": [
+                {"answer": "Manwe", "correct": false, "selected": false},
+                {"answer": "Aule", "correct": false, "selected": false},
+                {"answer": "Melkor", "correct": true, "selected": false}
+            ]
+        }
+ 
+    ]
+}
