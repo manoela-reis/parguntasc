@@ -2,6 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { Data } from '../../providers/data/data';
 import { HomePage } from '../home/home';
+import { CasoEmTextoPage } from '../caso-em-texto/caso-em-texto';
 
 @Component({
   selector: 'page-questionario',
@@ -50,7 +51,7 @@ export class QuestionarioPage {
   
          this.hasAnswered = true;
          answer.selected = true;
-         question.flashCardFlipped = true;
+         
   
          if(answer.correct){
              this.score++;
@@ -60,7 +61,7 @@ export class QuestionarioPage {
              this.hasAnswered = false;
              this.nextSlide();
              answer.selected = false;
-             question.flashCardFlipped = false;
+             
          }, 3000);
      }
   
@@ -95,9 +96,14 @@ export class QuestionarioPage {
          });
      }
      
-     goToHome(params){
+    goToHome(params){
         if (!params) params = {};
         this.navCtrl.push(HomePage);
+    }
+
+    goToCasoTexto(params){
+        if (!params) params = {};
+        this.navCtrl.push(CasoEmTextoPage);
     }
   
 }

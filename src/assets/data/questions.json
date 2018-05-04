@@ -1,30 +1,12 @@
 {
     "questions": [
- 
+        
         {
-            "questionText": "How many Silmarils are there?",
-            "flashCardBack": "Three",
-            "flashCardFlipped": false,
-            "answers": [
-                {"answer": "Three", "correct": true, "selected": false},
-                {"answer": "Five", "correct": false, "selected": false},
-                {"answer": "Seven", "correct": false, "selected": false}
-            ]
-        },
-        {
-            "questionText": "How many Istari are there?",
-            "flashCardBack": "Five",
-            "flashCardFlipped": false,
-            "answers": [
-                {"answer": "Seven", "correct": false, "selected": false},
-                {"answer": "Five", "correct": true, "selected": false},
-                {"answer": "Three", "correct": false, "selected": false}
-            ]
-        },
-        {
+            "title": "Sinhá Vitória",
+            "id":1,
+            "image": "assets/img/oie_transparent.png",
+            "text": "Você está no 1º ano de Medicina, em plantão na maternidade Mater pela disciplina de Primeiros Socorros. Victor, seu colega do 5º ano, te convida a ir ao alojamento conjunto (onde ficam as mães com seus recém-nascidos), e a vê-lo examinar Vitória, 17 anos, mãe de João, nascido há 6 dias. Ao exame, Victor constata que Vitória está bem. No entanto, João vomitou após as primeiras mamadas; na investigação, foi diagnosticado galactosemia, uma condição genética recessiva que contraindica o leite materno (uma situação rara). Assim, João precisaria receber uma fórmula láctea adaptada. Ela terá alta da Mater, e irá manter os cuidados de saúde dela e de João no centro de saúde perto de casa. Contudo, Vitória está preocupada porque não tem dinheiro para comprar essa fórmula láctea adaptada para João. _ Lá em casa moram: eu, minha mãe, que também está sem trabalho, e meu outro filho de um ano e meio de idade. Mês que vem, vou morar com o pai dos meninos, mas ele também está sem trabalho agora. _ Você tem outro filho de um ano e meio de idade? É importante dar um intervalo de dois anos para engravidar, e que a gravidez seja planejada e desejada. \n\n\n _ Eu sei..., eu e meu marido usávamos camisinha, mas falhou.",
             "questionText": "Qual a melhor conduta para ajudar Vitória?",
-            "flashCardBack": "A Maiar",
-            "flashCardFlipped": false,
             "answers": [
                 {
                     "answer": "Dar alta à Vitória, mas manter João na maternidade, devido aos riscos de desnutrição e adoecimento da criança, sendo que a mãe poderá visitá-lo quando desejar.",
@@ -49,13 +31,681 @@
             ]
         },
         {
-            "questionText": "Morgoth's true name is",
-            "flashCardBack": "Melkor",
-            "flashCardFlipped": false,
+            "questionText": "Abaixo são apresentados os riscos sociais à Vitória e ao João, que contribuem para a perpetuação dessa situação de risco social. ",
             "answers": [
-                {"answer": "Manwe", "correct": false, "selected": false},
-                {"answer": "Aule", "correct": false, "selected": false},
-                {"answer": "Melkor", "correct": true, "selected": false}
+                {
+                    "answer": "Cabe ao sistema de saúde abordar, orientando a família em relação a instituições ou serviços existentes na comunidade que auxiliem a reduzir os riscos acima, de forma a prevenir o adoecimento e promover saúde.",
+                    "correct": true,
+                    "selected": false
+                },
+                {
+                    "answer": "Não cabe ao sistema de saúde abordar, uma vez que são questões sociais que aumentariam o custo público de saúde. Caso venham a adoecer, neste caso o sistema de saúde cumprirá seu papel.",
+                    "correct": false,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "O pai ausente",
+            "id":2,
+            "image": "assets/img/oie_transparent.png",
+            "text": "O pai de Vitória, Sr. Antônio Magalhães, tem 50 anos de idade e é fazendeiro. Era casado quando se envolveu com a mãe de Vitória, e ameaçou matá-la se o caso tornasse público.  Sr. Antônio jamais foi conhecer Vitória. A mãe de Vitória poderia buscar seus direitos na justiça, mas tem medo de fazer isso. Sr. Antônio é de classe média, com condições para pagar um plano de saúde privado (convênio), porém se recusa, pois considera o preço abusivo. Um dia, ele andava no centro da cidade quando sentiu forte dor no peito e caiu. Em frente havia um hospital particular. Um médico e um enfermeiro, funcionários deste hospital  viram o  Sr.  Antônio cair, correram para saber o que aconteceu, e verificaram que o Sr. Antônio não respirava e estava sem pulso.",
+            "questionText": "Após chamarem ajuda e iniciarem a massagem cardíaca, qual a melhor conduta que o médico e o enfermeiro devem adotar? ",
+            "answers": [
+                {
+                    "answer": "Como o Sr. Antônio não é paciente seguido por eles, o médico e o enfermeiro não são obrigados a prover os cuidados de primeiros socorros, cabendo a eles apenas chamar o SAMU (192).",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Ligar para o SAMU (192) e enquanto aguardam a ambulância, iniciam a massagem cardíaca. Quando o SAMU chegar, deve levar o Sr. Antônio a um hospital público imediatamente.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Levar o Sr.  Antônio para dentro do hospital particular, pedindo que ele seja atendido. Porém, o hospital tem o direito de cobrar pelo atendimento ao paciente.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Levar o Sr. Antônio para dentro do hospital privado, sendo este obrigado a realizar todas as medidas para assegurar a vida do paciente. Ao final, o hospital particular pode solicitar ao SUS o ressarcimento dos gastos.",
+                    "correct": true,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "questionText": "No caso de um morador de rua, o acesso emergencial ao serviço de saúde também deve ser prestado. Se este usuário precisasse de uma medicação que reduza bastante o risco de novo infarto (acido acetilsalicílico - AAS), porém não tenha dinheiro para comprar, o sistema de saúde deve fornecer o remédio? ",
+            "answers": [
+                {
+                    "answer": "Sim, pois a medicação ajuda a prevenir uma doença, e como as medidas preventivas fazem parte do âmbito da saúde, o cidadão tem direito ao remédio.                    ",
+                    "correct": true,
+                    "selected": false
+                },
+                {
+                    "answer": "Não, pois a medicação não é para tratar uma doença, e sim para prevenção, e isso não cabe ao sistema público de saúde por questão de custos.                    ",
+                    "correct": false,
+                    "selected": false
+                }
+            ]
+        },
+
+        {
+            "title": "A carta",
+            "id":3,
+            "image": "assets/img/oie_transparent.png",
+            "text": "Você está no Núcleo de Saúde da Família 1, pela disciplina de ASC, e acompanha o Dr. Gaspar na consulta com Fabiano, Vitória e seus filhos. Vitória: “Eu trouxe o Fabiano porque falaram que é bom o pai estar junto na consulta do bebê. Eu vou mudar pra casa dele, é lá no bairro Alagoas. Lá é ruim porque não tem posto de saúde nem creche. Eu não sei cuidar direito deste mais novo, e sem creche com quem eu vou deixar as crianças pra ir trabalhar mais pra frente?” Gaspar: “Sim, eu passo por lá quando chego de viagem. Tem muito lixo e esgoto a céu aberto. É onde mais precisaria de creche e serviços de saúde!” Vitória: “Pois é! Mas esses políticos não fazem nada.” Você: “Será que a gente não pode fazer algo pra ajudar?” Fabiano: “Um vizinho meu representa nosso bairro lá na secretaria de saúde. Ele leva os problemas da gente pra lá, mas ninguém resolve.” Gaspar termina de examinar as crianças, e vocês saem para discutir o caso da família. Gaspar: “Você perguntou se poderíamos fazer algo. Bom, vou te explicar como funciona o sistema de saúde, e vamos ver como você pode ajudá-los. No centro da cidade fica a secretaria municipal de saúde. Lá, o Conselho se reúne todo mês, e tem representantes da população de vários bairros (como o vizinho de Fabiano), além de profissionais de saúde e gestores. Eles discutem sobre o orçamento pra saúde, quais programas de saúde incentivar, enfim, sobre o planejamento de saúde da cidade”. Você: “Tá... E daí?” Gaspar: “Você pode enviar uma carta para esse Conselho, reivindicando melhorias naquele bairro. E para defender com mais peso sua reivindicação, seria importante você se embasar nos princípios do SUS. Você conhece os princípios?”",
+            "questionText": "Como toda instituição, o SUS também tem seus princípios, que devem valer em todo o país. Qual das alternativas abaixo contém itens que NÃO são princípios do SUS?            ",
+            "answers": [
+                {
+                    "answer": "Universalidade, equidade, participação popular",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Universalidade, participação popular, descentralização administrativa",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Equidade, regionalização, integralidade visando ações preventivas",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Igualdade, participação popular, centralização administrativa",
+                    "correct": true,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "questionText": "Declaração de Alma-Ata, promulgada pela Organização Mundial de Saúde (OMS) em 1978, afirma que as ações primárias de saúde pressupõem a participação da comunidade em seu planejamento, organização, execução e controle. Com base nos princípios e no funcionamento atual do SUS:            ",
+            "answers": [
+                {
+                    "answer": "A participação da comunidade no SUS é feita por meio das Conferências e Conselhos de Saúde, nos níveis nacional, estaduais, municipais.",
+                    "correct": true,
+                    "selected": false
+                },
+                {
+                    "answer": "Embora seja diretriz constitucional, a participação da comunidade no SUS ainda não foi implantada, devido às dificuldades de financiamento.",
+                    "correct": false,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "O pai de Sinhá Vitória",
+            "id":4,
+            "image": "assets/img/oie_transparent.png",
+            "text": "Você está no Núcleo de Saúde da Família 1, pela disciplina de ASC, acompanhando a Dra Lívia. Quem vem à consulta é o Sr. Antônio (o pai de Vitória). Sr. Antônio lhes conta que, após o susto do infarto, resolveu fazer um plano de saúde privado e começar um check-up. Foi informado pelo médico de que precisaria fazer alguns exames de laboratório, mas em seguida descobriu que o plano não oferecia cobertura para alguns dos exames pedidos pelo médico. Foi sugerido a ele que procurasse uma Unidade Básica de Saúde (UBS) para contornar o problema. Assim, o Sr. Antônio pediu para ser cadastrado no Núcleo e uma consulta médica para solicitação dos exames. ",
+            "questionText": "Qual a conduta mais apropriada que a Dra Lívia deve tomar?",
+            "answers": [
+                {
+                    "answer": "Ela não pode pedir os exames, pois Sr. Antônio tem plano privado e, conforme o princípio da Equidade, ele deve exigir do plano a realização dos exames.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Ela pode pedir os exames, e como Sr. Antônio já foi avaliado por um colega, não precisa fazer consulta, apenas preencher as requisições pelo SUS. Dessa forma, ela obedece ao princípio da Integralidade.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Ela deve pedir os exames, uma vez que Sr. Antônio é cidadão e tem direito de acordo com o princípio do controle social. ",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Ela pode pedir os exames, após consultar Sr. Antônio, respeitando o princípio da Universalidade, pois ele é usuário do SUS e marcou seu atendimento no Núcleo.",
+                    "correct": true,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "questionText": "Sr. Antônio está com uma ferida no pé, e é encaminhado à sala de enfermagem para tratamento. A enfermeira Violeta, atendendo Sr. Antônio, observa uma mancha esbranquiçada no braço dele, com redução de sensibilidade no local, algo não percebido quando você e a Dra Lívia o examinaram. Violeta então o encaminha novamente à sala da Dra. Lívia para que ela avalie a suspeita de hanseníase. Esta conduta traduz o princípio de:",
+            "answers": [
+                {
+                    "answer": "Integralidade",
+                    "correct": true,
+                    "selected": false
+                },
+                {
+                    "answer": "Equidade",
+                    "correct": false,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "A mãe de Vitória",
+            "id":5,
+            "image": "assets/img/oie_transparent.png",
+            "text": "Em um domingo, Vitória foi visitar sua mãe, dona Glória. Estavam almoçando quando dona Glória sentiu uma forte dor de cabeça, e então s membros direitos - o braço e a perna ficaram pesados, a boca torta, e a fala enrolada. Vitória, sem saber o que fazer, correu ao vizinho para ajudá-la.",
+            "questionText": "Qual a melhor conduta que Vitória e o vizinho devem adotar?",
+            "answers": [
+                {
+                    "answer": "Ligar para o 193, pedir uma unidade de suporte básico, para levar dona Glória a um hospital de nível secundário, sem necessidade de orientação da regulação, pois se trata de uma urgência.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Com o carro do vizinho, levar dona Glória para um hospital de nível terciário (ex: HC campus), para que o atendimento seja mais rápido.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Com o carro do vizinho, levar dona Glória ao posto de saúde mais próximo de casa, para que o médico possa avaliar o caso e contatar a regulação.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Ligar para o 192 e explicar o que aconteceu, para que o serviço de regulação envie uma ambulância adequada e leve com segurança dona Glória a um hospital de referência.",
+                    "correct": true,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "questionText": "Note que dona Glória apresentou uma situação de emergência: suspeita de acidente vascular cerebral (derrame) que exigia tratamento em um hospital com equipe especializada. No entanto, a maioria das pessoas têm dores de cabeça, não complicadas (como cefaleias tensionais e enxaquecas), casos em que um bom exame clínico feito pelo médico generalista é suficiente para diagnóstico e indicação de tratamento. Para casos não-urgentes como estes, qual serviço o usuário deve buscar preferencialmente? ",
+            "answers": [
+                {
+                    "answer": "Ir ao posto de atenção primária de saúde ou ao pronto-atendimento para consulta médica, se não for possível o atendimento pelo serviço de atenção primária.",
+                    "correct": true,
+                    "selected": false
+                },
+                {
+                    "answer": "Ir ao centro de saúde secundário e agendar consulta com neurologista.",
+                    "correct": false,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tomás da Bolandeira",
+            "id":6,
+            "image": "assets/img/oie_transparent.png",
+            "text": "Ainda na disciplina de ASC, você encontra Fabiano na porta da unidade de Saúde da Família. Ele te aborda, pedindo ajuda: “Sabe o que é, doutora: tenho um amigo, seu Tomás da Bolandeira, gente boa demais. Ele mora em Jardinópolis, cidade pequena aqui do lado de Ribeirão. Ele está com dor nas costas e nas pernas há um ano, e não foi ao médico ainda. Ele viu na internet que pelo que sente, parece ser hérnia de disco, e pra isso precisa de médico especialista em osso. E também precisa de um exame de ressonância. E uma colega minha que trabalha no HC do campus falou que esse médico e esse exame só tem lá no HC. To vendo no seu jaleco que você é de lá. Então, se ele for lá os médicos atendem ele? Vocês não vão negar ajuda pro meu irmão, né?”",
+            "questionText": "Qual a sua resposta para Fabiano?",
+            "answers": [
+                {
+                    "answer": "Como a condição clínica certamente irá precisar de avaliação ortopédica e ressonância, você orienta que o amigo dele vá direto ao ambulatório de ortopedia do HC para consulta.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Você explica que o HC campus é hospital de nível terciário no sistema, e que seria melhor o amigo dele buscar atendimento de nível secundário (ir ao Centro de Saúde Escola - CSE e agendar o ortopedista, por exemplo).",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Como o caso parece ser agudo, orienta que o amigo dele busque um pronto-socorro, onde um clínico geral poderá avaliar com calma o caso e solicitar avaliação do ortopedista de plantão.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Você explica que o HC campus é hospital de nível terciário no sistema, sendo restrito a casos específicos após encaminhamento médico. Logo, o amigo dele precisa buscar atendimento médico em nível primário na sua cidade.",
+                    "correct": true,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "questionText": "Sendo você uma ortopedista contratada pela prefeitura, que atua em um hospital de nível secundário, como os pacientes (usuários) chegarão até você para uma consulta?",
+            "answers": [
+                {
+                    "answer": "Sempre via encaminhamento, com a data da consulta conforme a fila de encaminhamentos e de acordo com a necessidade de avaliação rápida.",
+                    "correct": true,
+                    "selected": false
+                },
+                {
+                    "answer": "Por encaminhamento ou por agendamento direto no hospital a partir da livre demanda do usuário que considera que sua queixa é de natureza ortopédica.",
+                    "correct": false,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "O seguimento da mãe de Vitória",
+            "id":7,
+            "image": "assets/img/oie_transparent.png",
+            "text": "Você está no 5º ano, no ambulatório de neurologia do HC (nível terciário) e recebe dona Glória, 61 anos, acompanhada pela filha Vitória. Dona Glória teve um AVC há 1 mês. Vitoria contou com a ajuda do vizinho, que chamou o SAMU-192 no episódio. Após o tratamento na Unidade de Emergência do HC, dona Glória voltou para casa, com retorno agendado na especialidade Neurologia do HC Campus. Desde então, é acompanhada nesse ambulatório, com consultas a cada três meses. Dona Glória tem dificuldade de preensão na mão direita e para andar, às vezes sente fortes dores pelo corpo, e se sente infeliz devido às dificuldades para realizar os afazeres de casa. Ela não faz consulta em nenhum outro lugar além deste ambulatório.",
+            "questionText": "Qual a melhor conduta para dona Glória?",
+            "answers": [
+                {
+                    "answer": "Agendar retornos mais curtos na neurologia para dona Glória, a fim de obter melhor ajuste das medicações e acompanhar com mais cuidado a reabilitação dela.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Orientar a família a buscar atendimento particular de fisioterapia e terapia ocupacional, além de uma enfermeira que visite a casa da família, pois estes serviços não estão disponíveis no SUS.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Encaminhar dona Glória para avaliação da psiquiatria no HC, devido ao possível risco de depressão com manifestação somática de dores corporais.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Articular a equipe de atenção primária / saúde da família do bairro para colaborar, em equipe multidisciplinar, com visitas domiciliares, no cuidado de dona Glória.",
+                    "correct": true,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "questionText": "Um dos grandes diferenciais na Atenção Primária do Brasil se deve a existência do Programa de Agentes Comunitários de Saúde (PACS), iniciado nos anos 90. O agente comunitário de saúde (ACS) desempenha papel fundamental na transição da assistência hospitalar para o modelo de saúde voltado para a família e comunidade. Este realiza visitas domiciliares mensais, avaliando a saúde da família e as condições de risco, e conhece o território da comunidade, auxiliando na identificação de riscos e focos de promoção à saúde. O ACS atua:",
+            "answers": [
+                {
+                    "answer": "Em qualquer centro de atenção primária (Unidade de Saúde da Família ou UBS parametrizada, também com o PACS – programa de agente comunitário de saúde -, junto à equipe.",
+                    "correct": true,
+                    "selected": false
+                },
+                {
+                    "answer": "Apenas dentro de centros de saúde onde exista a equipe mínima de Saúde da Família, pois o PACS está inserido na Estratégia de Saúde da família.",
+                    "correct": false,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "O filho mais novo",
+            "id":8,
+            "image": "assets/img/oie_transparent.png",
+            "text": "Anos à frente, você está na residência médica e lhe oferecem um plantão no posto de saúde inaugurado no bairro Alagoas (em parte graças à sua carta de reivindicação). Lá, chegam à consulta Vitória, com 23 anos, e seu filho mais novo, com 6 anos. “O menino tá com diarreia, doutora. Reclama de dor de barriga, tá indo toda hora no banheiro, vai fazer cocô e só sai água! Ele já teve um monte de diarreia esse ano, eu levava ele no postinho do bairro vizinho para tratar. Já deram soro, antibiótico, mas a diarreia volta.” Você decide investigar um pouco melhor o caso (apesar da fila de pacientes e do curto tempo para as consultas), e descobre que o menino não sabe ler ou fazer contas, e reclama bastante de dor de cabeça na escola. O posto de atenção primária de Alagoas tem apenas você como médica e um enfermeiro para a pré e pós-consulta. Ainda assim, Vitória dá “graças a Deus, porque agora tem médico aqui no bairro.”",
+            "questionText": "Qual a melhor conduta para o caso?",
+            "answers": [
+                {
+                    "answer": "Como se trata de um caso de diarreia com recidivas apesar do tratamento, seria melhor encaminhar ao HC para avaliação do caso e possível internação da criança.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Como se trata de um caso de diarreia com recidivas apesar do tratamento, seria melhor encaminhar ao gastroenterologista (no nível secundário) para avaliação do caso.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Claramente a diarreia tem origem nas condições ambientais da criança, algo difícil de você resolver como médico. Assim, basta tratar e marcar retorno daqui 3 meses.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Claramente a diarreia tem origem nas condições ambientais da criança. Você pode tratar e agendar retorno, e também reivindicar uma equipe de Saúde da Família no bairro, que ajude a contornar tais problemas, em ações mais próximas da comunidade.",
+                    "correct": true,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "questionText": "A Atenção Primária é o nível prioritário de um sistema de saúde por suas características: •Maior grau de descentralização, cuja participação no cuidado se faz sempre necessária; •Coordena o cuidado dos indivíduos e comunidades;• Identificar riscos e demandas de saúde próximo aos usuários, adquirindo resolutividade. No Brasil, foi criada a Estratégia Saúde da Família para organização da Atenção Primária. Qual a constituição mínima de uma equipe de SF? ",
+            "answers": [
+                {
+                    "answer": "Um médico, um enfermeiro, um a dois auxiliares de enfermagem e quatro a seis agentes comunitários de saúde, para uma população de 3000 pessoas.",
+                    "correct": true,
+                    "selected": false
+                },
+                {
+                    "answer": "Dois médicos, dois enfermeiros, dois auxiliares de enfermagem e doze agentes comunitários de saúde, para uma população de 10.000 pessoas.",
+                    "correct": false,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Fabiano",
+            "id":9,
+            "image": "assets/img/oie_transparent.png",
+            "text": "Fabiano tem pressão alta e insuficiência cardíaca (“coração dilatado” pela doença de Chagas), e faz seguimento na Unidade de Saúde da Família (USF) do bairro. Em janeiro, dias após os churrascos de Natal e Ano Novo, Fabiano sentiu piora da falta de ar, vindo aos pequenos esforços, e piora do inchaço nas pernas. Buscou o CSF e, após rápida avaliação médica, foi chamada uma ambulância para levá-lo à Unidade Distrital de Saúde (UBDS) mais próxima. Na UBDS, Fabiano foi internado, foram iniciadas as medidas para insuficiência cardíaca descompensada, e ele foi encaminhado à Unidade de Emergência do HC. Neste hospital, Fabiano melhorou, recebendo alta com novas medicações e orientações. Fabiano vem à consulta no CSF com a receita médica emitida na alta do HC. Diz que recebeu orientações para comer pouco sal e não fazer exercícios muito fortes. Diz que fez um ultrassom do coração, e que o laudo ficou no HC, e que no ultrassom o coração ficou um pouco pior.",
+            "questionText": "Um dos princípios do SUS afirma que o usuário deve ter o cuidado de saúde em rede, tendo como atenção de referência o nível primário. Para isso, é fundamental uma boa comunicação entre os níveis de atenção (com formulários claros ou ferramentas eletrônicas eficientes). Nesse sentido, qual conduta o médico do centro de saúde da família deve adotar?",
+            "answers": [
+                {
+                    "answer": "Reforçar as orientações que Fabiano recebeu no HC, renovar a receita médica mantendo as medicações, e pedir para que ele vá até o HC para agendar um retorno.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Reforçar as orientações que Fabiano recebeu no HC, renovar a receita médica mantendo as medicações, e fazer encaminhamento ao nível terciário para seguimento da doença de Chagas na cardiologia.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Reforçar as orientações que Fabiano recebeu no HC, renovar a receita médica mantendo as medicações, e fazer encaminhamento ao nível secundário para seguimento da doença de Chagas na cardiologia.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Contatar o HC solicitando uma guia de contra-referência, para que a equipe de saúde da família saiba quais foram as medidas tomadas durante a internação, quais cuidados e medicações manter, e se há retornos agendados para ele no nível terciário.",
+                    "correct": true,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "questionText": "No caso descrito, a comunicação não ocorreu, prejudicando a atenção em rede. Qual princípio do SUS que não foi cumprido no caso?",
+            "answers": [
+                {
+                    "answer": "Integralidade.",
+                    "correct": true,
+                    "selected": false
+                },
+                {
+                    "answer": "Equidade",
+                    "correct": false,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "O coração de Vitória",
+            "id":10,
+            "image": "assets/img/oie_transparent.png",
+            "text": "Anos à frente, você está trabalhando como médica do centro de Saúde da Família do bairro Alagoas.Vitória, já mais velha, vem à consulta de rotina dizendo que tem sentido batedeira e dor no peito aos esforços, que melhora após alguns minutos de descanso. Você a examina, e suspeita de angina estável por má circulação dos vasos do coração. Para melhor avaliação, é necessário o exame de teste ergométrico (em que o paciente fica na esteira, monitorizado, para avaliar a função cardiovascular quando submetido a esforço de crescente intensidade). Como este exame não é disponível no nível primário, você preenche uma guia de encaminhamento à prefeitura, relatando o caso e justificando a necessidade do exame. Três meses depois, Vitória retorna para consulta. Você então pergunta sobre o exame: “Ah sim, doutora, eu fiz o exame. O médico de lá falou que foi tudo bem, que eu tava de alta, e podia voltar quando quisesse.” “Te deram um papel com o resultado?” “ Não deram não, doutora.”",
+            "questionText": "Qual a melhor conduta para o caso?",
+            "answers": [
+                {
+                    "answer": "Como não foi feita a contra-referência e você não sabe qual médico realizou o exame em Vitória, cabe solicitar novamente o teste ergométrico, deixando claro desta vez para enviarem uma contra-referência.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Como foi explicado à Vitória que estava tudo bem, encerrar a investigação. Caso ela sinta algo novamente, ela pode procurar direto o serviço secundário, conforme foi dito a ela.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Entrar em contato com o hospital em que foi feito o teste ergométrico, solicitando uma contra-referência verbal, para que você confirme que ocorreu tudo bem. Assim, você continua a investigação do caso de Vitória com outros exames.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Entrar em contato com o hospital em que foi feito o teste ergométrico, solicitando a contra-referência por escrito, para que você mantenha a informação no prontuário de Vitória no centro de saúde e continue os cuidados dela.",
+                    "correct": true,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "questionText": "No último exame ginecológico de Vitória no centro de Saúde da Família, após exame de colpocitologia oncótica, ou Papanicolaou, (para rastreamento de câncer de colo uterino), foram identificadas formas celulares sugestivas de câncer. Você então a encaminha para o nível secundário, onde realizam biópsia, cujo laudo confirma que se trata de uma neoplasia em estágio inicial. Vitória então é direcionada ao terciário, sendo atendida no HC Campus. No HC, decidem realizar nova biópsia, justificando que precisam de laudo documentado na ficha de triagem do HC, apesar de você ter enviado na ficha de referência todos os resultados de exames, além de cópias dos laudos, e de não haver necessidade de repetição de exame para confirmação diagnóstica. A conduta dos profissionais do HC está:",
+            "answers": [
+                {
+                    "answer": "Incorreta, pois como a referência está adequada, com laudos dos exames e diagnóstico já firmado, não há motivo para realizar nova biópsia.",
+                    "correct": true,
+                    "selected": false
+                },
+                {
+                    "answer": "Correta, pois a ficha de referência serve apenas para explicação da investigação que conduziu a paciente até o nível terciário, não para diagnóstico de doenças graves como uma neoplasia.",
+                    "correct": false,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Bairro Alagoas",
+            "id":11,
+            "image": "assets/img/caso11.png",
+            "text": "Ao instalar a equipe de Saúde da Família no bairro Alagoas, vocês fizeram a territorialização, e observaram o seguinte perfil:",
+            "questionText": "Considerando os dados anteriores, qual seria a melhor intervenção em um primeiro momento?",
+            "answers": [
+                {
+                    "answer": "Abrir um posto de puericultura no bairro, pois a população abaixo de 5 anos não pode ser atendida na Unidade de Saúde da Família",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Investir em centros coletivos e atividade física voltados para idosos.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Aumentar a área verde no barro, criando espaços onde a população poderia praticar atividade física",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Criar um espaço social para jovens de 16 a 25 anos, onde inclusive pode-se discutir temas de saúde, sexualidade e riscos das drogas.",
+                    "correct": true,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "questionText": "Observe que o centro de saúde fica na ponta da área de abrangência, de forma que há pessoas que moram a duas quadras da unidade, mas são cadastrados no centro de saúde do território vizinho. Uma cunhada de Vitória que se encontra nessa situação vem ao Centro de Saúde da Família em questão, considerado a melhor unidade de Alagoas, pedindo para ser cadastrada. Ela justifica dizendo que é mais fácil para ela, pois esta unidade é mais próxima de sua casa e há familiares que já acompanham aqui. Qual a melhor conduta para o caso?",
+            "answers": [
+                {
+                    "answer": "Orientar à secretária deste centro a transferência do cadastro da cunhada de Vitória para esta unidade, em virtude da facilidade para a usuária.",
+                    "correct": true,
+                    "selected": false
+                },
+                {
+                    "answer": "Orientar à secretária deste centro a transferência do cadastro da cunhada de Vitória para esta unidade, em virtude da facilidade para a usuária.",
+                    "correct": false,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Os calouros",
+            "id":12,
+            "image": "assets/img/oie_transparent.png",
+            "text": "Você recebe os alunos do 1º ano de medicina na unidade de saúde em que trabalha e conta do tempo em que era aluna, de quando conheceu a família de Vitória, o que aprendeu sobre Atenção Primária e por que escolheu a Medicina de Família. Por fim, sugere um desafio: “No último Congresso Brasileiro de Saúde da Família, os pesquisadores observaram que a incidência de DST (principalmente HIV, sífilis e hepatites) nas mulheres de 40 a 65 anos está aumentando, embora as doenças sejam subdiagnosticadas. Muitas vezes isso ocorre porque seus maridos têm casos extraconjugais sem uso de preservativo e transmitem tais doenças às esposas. Porém, não sabemos qual a realidade da população atendida pela nossa unidade e precisamos saber como as coisas estão em nosso território para tomar ações direcionadas. Qual será a prevalência dessas doenças e como podemos agir em prevenção e diagnóstico precoce? O que vocês sugerem?”",
+            "questionText": "A secretaria da saúde disponibiliza certa quantia financeira para as atividades da Unidade de Saúde da Família. Este recurso deve ser investido de forma eficiente dentro do âmbito de ação da atenção primária. Levando em conta o contexto mencionado anteriormente, qual seria a ação mais adequada?",
+            "answers": [
+                {
+                    "answer": "Comprar penicilinas e antirretrovirais para o tratamento dos casos de sífilis e HIV diagnosticados, aumentando assim a resolutividade terapêutica no nível primário.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Contratar infectologistas para realizar um mutirão em que todas as mulheres do bairro sejam examinadas, a fim de encontrar sintomas ou achados físicos de HIV, sífilis e hepatites.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Construir um centro clínico no território, para diagnóstico e tratamento de DST.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Comprar exames laboratoriais de triagem diagnóstica de HIV, sífilis e hepatites B e C; nos casos em que o exame vier positivo, pode-se encaminhar o paciente à atenção secundária de infectologia.",
+                    "correct": true,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "questionText": "Um aluno comenta que observou muitos salões de manicure no território (quase um em cada esquina), onde as mulheres se reúnem mesmo que seja para conversar. Assim, ele propõe a fixação de cartazes nos salões, orientando sobre as doenças, como se prevenir, e a procurar o centro de saúde da família se houver dúvidas. Uma orientação adicional que poderia ser colocada no cartaz é:",
+            "answers": [
+                {
+                    "answer": "Não compartilhar materiais perfuro-cortantes (como alicates de manicure), para evitar a transmissão de doenças.",
+                    "correct": true,
+                    "selected": false
+                },
+                {
+                    "answer": "Se você tem hepatite ou HIV, informe à manicure para que ela tome os cuidados de proteção.",
+                    "correct": false,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Terminalidade da vida",
+            "id":13,
+            "image": "assets/img/oie_transparent.png",
+            "text": "Você está no 5º ano, no Hospital Estadual de Ribeirão Preto. Vitória está acompanhando sua sogra Graciliana, 81 anos, internada devido a uma úlcera de pressão. Dona Graciliana tem doença de Alzheimer avançada, é incapaz de sair da cama, e dependente para os cuidados (alimentação, higiene). Você relembra a aula de geriatria: as úlceras de pressão ocorrem em acamados ou cadeirantes, atingindo pontos ósseos (região sacral, laterais da coxa e tornozelos); a melhor abordagem é a prevenção, aliviando os pontos de pressão com colchões adequados, movendo o paciente sem arrastá-lo, e trocá-lo de posição a cada 2 horas. Graciliana está indo de alta. Vitória, ao receber suas orientações, diz: “Doutor, estou com medo de voltar pra casa. Tá muito difícil cuidar de minha sogra. O Fabiano fica o dia inteiro fora, e os meninos são pequenos pra ajudar. Eu não consigo trocar ela de posição do jeito certo como fazem aqui, esqueço os remédios, é difícil até de dar banho nela. É a terceira vez que ela interna por conta de úlcera. Não quero de jeito nenhum colocar ela em um asilo, inclusive porque ela falava que não queria isso para ela.”",
+            "questionText": "Você escreve no prontuário uma lista de problemas. E pensa consigo: qual a conduta mais apropriada?",
+            "answers": [
+                {
+                    "answer": "Suspender a alta, e manter a paciente no hospital, em virtude das ulceras recidivantes.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Encaminhar a paciente a uma casa de repouso, onde haverá melhores cuidados, independente da vontade da nora, e dialogar com a família sobre esta necessidade.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Realizar a alta e marcar retornos bem curtos, para acompanhar e orientar os cuidados à paciente.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Na contra referência ao centro de atenção primária do bairro da paciente, sugerir à enfermeira e aos agentes comunitários visitas domiciliares para ajudar Vitória a melhorar os cuidados.",
+                    "correct": true,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "questionText": "Uma abordagem especial no SUS é a Atenção Domiciliar (AD). Um dos objetivos da AD é criar condições para reduzir a demanda de pacientes por atendimento hospitalar e o período de internação daqueles que forem hospitalizados. Busca-se, assim, atenuar a aplicação do modelo hospitalocêntrico de cuidado em saúde e gerar maior autonomia ao indivíduo e sua família, que recebem parte do tratamento em casa. Para isso, é envolvida uma equipe de cuidados de saúde que envolve os três níveis de atenção. De acordo com a lei que regulamenta a atenção domiciliar, um dos critérios de não-inclusão no serviço em questão é:",
+            "answers": [
+                {
+                    "answer": "Caso a demanda pelo serviço partir espontaneamente de familiares a um hospital.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Caso não haja algum cuidador em casa.",
+                    "correct": true,
+                    "selected": false
+                }
+            ]
+        },
+
+        {
+            "title": "Cuidados ao idoso",
+            "id":14,
+            "image": "assets/img/oie_transparent.png",
+            "text": "Você é médica da Unidade de Saúde da Família de Alagoas. A agente comunitária fez uma visita domiciliar à casa vizinha de Vitória e Fabiano, e relata o caso para a equipe: Lá moram Macabéa e seu filho caçula Olímpico. Macabéa é viúva, 75 anos, hipertensa e teve um AVC há 3 anos. Última consulta médica há 1 ano no pronto-socorro. Olímpico é divorciado, 35 anos e hipertenso, com última consulta médica há cerca de 3 anos. Macabéa tem dificuldade para andar desde o AVC há 1 ano. Já teve várias quedas, por isso tem medo de andar e prefere ficar na cama. Olímpico é motoboy, e fica a maior parte do tempo na rua. Sai de manhã e deixa com a mãe um pacote de fraldas do lado da cama e alguns biscoitos, frutas e água. Vem em casa em alguns momentos para dar comida e ajudar a mãe nos cuidados de higiene.  A neta mais velha, de 20 anos, tentou morar um tempo na casa para ajudar nos cuidados, mas ficou sobrecarregada e apresentou conflito com a paciente. Macabéa toma banho apenas 3 vezes por semana. Na visita, observamos cheiro de urina e umidade no colchão dela. Sobre atividades de lazer, a paciente vê TV o dia todo e sente-se muito só. O filho gosta de pescar e, nos fins de semana e feriados, viaja, momentos em que a paciente fica sob cuidados dos netos que vão à casa em alguns horários do dia. De recursos financeiros, Macabéa é aposentada com 1 salário mínimo, e o filho ganha 1 salário mínimo mais comissão.",
+            "questionText": "Note que, se não houvesse o contato ativo e a visita domiciliar, muitos problemas de saúde de Macabéa e Olímpico passariam despercebidos. Qual conduta é a MENOS apropriada para o caso?",
+            "answers": [
+                {
+                    "answer": "Visita domiciliar médica e de enfermagem para ajuste de medicações e dos cuidados de higiene.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Acionar o Núcleo de Apoio à Saúde da Família (NASF), solicitando a visita domiciliar por geriatra, terapeuta ocupacional e assistente social.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Convocar a família para discutir como cada um pode ajudar nos cuidados à Macabéa.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Encaminhar Macabéa para consulta em geriatria e neurologia no nível secundário, para evitar piora clínica que leve a um adoecimento e necessidade de internação hospitalar no futuro.",
+                    "correct": true,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "questionText": "A equipe também aborda a família, sugerindo usar o dinheiro da aposentadoria para contratar um cuidador ou institucionalizar Macabéa. Contudo, Olímpico se mostra resistente. Nos meses seguintes, os cuidados familiares à Macabéa ainda são semelhantes. Qual conduta é OBRIGATÓRIA neste caso, de acordo com o Estatuto do Idoso?",
+            "answers": [
+                {
+                    "answer": "Notificação compulsória à autoridade sanitária e denúncia ao conselho do idoso, em virtude da violência por negligência.",
+                    "correct": true,
+                    "selected": false
+                },
+                {
+                    "answer": "Entrar com pedido no Ministério Público para que a aposentadoria de Macabéa seja direcionada ao Centro de Saúde da Família, para que este possa gerenciar os cuidados de saúde da paciente.",
+                    "correct": false,
+                    "selected": false
+                }
+            ]
+        },
+
+        {
+            "title": "Baleia",
+            "id":15,
+            "image": "assets/img/oie_transparent.png",
+            "text": "Sr. Pedro, 60, e Sra. Dora, 54, moram duas casas abaixo de Vitória e Fabiano. Os meninos de Vitória frequentam constantemente a casa de Sr. Pedro, para ouvir histórias dele. Desde pequenos eles o chamam de Baleia, devido à obesidade que Sr. Pedro apresentava. No entanto, há 1 ano Sr. Pedro foi diagnosticado com câncer de próstata e metástase de coluna. Desde então, perdeu bastante peso e ficou paraplégico. Sr. Pedro é acompanhado no HC Campus, com retornos mensais para receber quimioterapia. Porém, ele não tem como se locomover por meios próprios até o hospital. Sra. Dora, receosa pelo companheiro, tem estado mais triste recentemente e já teve depressão no passado.",
+            "questionText": "O sistema público disponibiliza recursos para auxiliar os usuários, a depender de seu perfil e necessidades específicas (ex.: fornecimento de fórmula láctea para crianças, passagem de ônibus para quem não pode se deslocar, e ambulâncias em casos necessários). Qual profissional é responsável por orientar as documentações e obter tais facilidades aos usuários?",
+            "answers": [
+                {
+                    "answer": "Agente comunitário de saúde.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Conselheiro municipal de saúde.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Médico.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Assistente social",
+                    "correct": true,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "questionText": "A equipe de saúde da família deseja ajudar a Sra. Dora. Porém, em reunião do grupo, perceberam que iriam precisar da ajuda de um psicólogo e um psiquiatra para entenderem melhor o caso. Em um caso complexo como este, no qual a equipe deseja participar da discussão e das decisões de conduta para ajudar Sra. Dora, mantendo-a com o vínculo próximo ao Centro de Saúde da Família, qual seria a melhor opção?            ",
+            "answers": [
+                {
+                    "answer": "Encaminhar Sra. Dora ao serviço secundário de saúde mental, solicitando contra-referência.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Realizar um “matriciamento”, isto é, solicitar a visita de profissionais especialistas (psicólogo e psiquiatra) para discutir o caso com a equipe e tomarem decisões em conjunto.",
+                    "correct": true,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "O filho mais velho",
+            "id":16,
+            "image": "assets/img/oie_transparent.png",
+            "text": "Vitória vem à Unidade de Saúde da Família, trazendo o filho mais velho para a consulta de rotina. Você observa que o adolescente está acima do peso, não realiza atividades físicas e está indo mal na escola. Você logo nota que não é um caso isolado: o número de jovens obesos e sedentários no bairro tem aumentado bastante. Você comenta isso com a agente comunitária, e ela observa: “Parece que neste ano mudou o diretor da escola do bairro e houve alguns problemas. As crianças estão comprando mais salgados e refrigerante na cantina, apesar da merenda continuar sendo servida na escola. Os alunos não comparecem às aulas de educação física, preferindo ficar se comunicando pelo celular.” Você organiza algumas medidas: 1. Orientar as mães a não darem dinheiro para as crianças, e sim que estas levem um lanche saudável de casa para a escola, caso não queiram almoçar no refeitório. 2. Sugerir estratégias para que as aulas de educação física sejam mais motivadoras, buscando maior participação dos estudantes.",
+            "questionText": "Você aproveita a intervenção para iniciar outras medidas do Programa Saúde na Escola. Dentre as abaixo, qual NÃO é essencial no programa:",
+            "answers": [
+                {
+                    "answer": "Monitorização do crescimento.",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Avaliar acuidade visual",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Avaliação da saúde bucal",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Realização de exame de fezes.",
+                    "correct": true,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "questionText": "Ainda assim, você agenda uma reunião com os professores de educação física e e. Explica sobre a necessidade de maior participação dos estudantes nas práticas esportivas. Eles argumentam que tem dificuldade em motivar os alunos, preocupados devido ao grande interesse que estes têm apresentado que estão ncom as redes sociais. Diante desses argumentos você:",
+            "answers": [
+                {
+                    "answer": "DesisteNão interfere, pois cabe ao setor educação a adequação das disciplinas às necessidades dos alunos. A a função do setor saúde, no caso, seria é de orientar sobre dieta adequada e atividade física e tomar as medidas diagnósticas e terapêuticas apenas. ",
+                    "correct": false,
+                    "selected": false
+                },
+                {
+                    "answer": "Oferece ajuda interdisciplinar, pois fatores educacionais interferem na saúde e vice-versa. E é provável que resultaria em um impacto na saúde dos jovens.",
+                    "correct": true,
+                    "selected": false
+                }
             ]
         }
  

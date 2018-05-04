@@ -6,6 +6,7 @@ import 'rxjs/add/operator/map';
 export class Data {
  
     data: any;
+    data2:any;
  
     constructor(public http: Http) {
  
@@ -27,5 +28,23 @@ export class Data {
         });
  
     }
- 
+
+    load2() {
+
+        if (this.data2) {
+            return Promise.resolve(this.data2);
+        }
+
+        return new Promise(resolve => {
+
+            this.http.get('assets/data/casos.json').map(res => res.json()).subscribe(data2 => {
+                this.data2 = data2.casos;
+                resolve(this.data2);
+                console.log("aquiiiiiiiiiii");
+            });
+
+        });
+
+    }
+
 }

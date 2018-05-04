@@ -1,17 +1,18 @@
 
 <ion-content padding id="page7">
-  <ion-slides #slides style="height:auto">
-    <ion-slide class="start-slide">
-        <button ion-button color="light" (click)="nextSlide()">Start!</button>
-    </ion-slide>
+  <ion-slides #slides style="height:auto">    
 
     <ion-slide *ngFor="let question of questions; let i = index;" >
-        <!--<h3>Question {{i+1}}</h3>-->
-        <!-- <flash-card [isFlipped]="question.flashCardFlipped">
-            <div class="flash-card-front" [innerHTML]="question.questionText"></div>
-            <div class="flash-card-back" [innerHTML]="question.flashCardBack"></div>
-        </flash-card> -->
-        
+            <h1 id="caso1-heading4" style="word-wrap: break-word; white-space: normal;text-align: justify;">
+                {{question.title}}
+            </h1>
+            <div id="caso1-markdown2" class="show-list-numbers-and-dots">
+                <p style="word-wrap: break-word; white-space: normal;text-align: justify;">
+                    {{question.text}}
+                </p>
+                <img [src]="question.image" />
+            </div>
+          
         <ion-label style="color:#000000;">
             <div class="paragrafo" [innerHTML]="question.questionText"></div>
         </ion-label>
@@ -24,12 +25,15 @@
         </ion-list>
 
     </ion-slide>
-
+        
     <ion-slide>
-        <h2>Final Score: {{score}}</h2>
-        <button (click)="restartQuiz()" ion-button full color="light">Start Again</button>
+        <h2>Parabéns! Sua pontuação final é: {{score}}</h2>
+        <button (click)="restartQuiz()" ion-button full color="positive">Start Again</button>
         <button ion-button color="positive" block on-click="goToHome()">
             Voltar para Home  
+        </button>
+        <button ion-button color="green" block on-click="goToCasoTexto()">
+                Caso Texto  
         </button>
     </ion-slide>
 </ion-slides>

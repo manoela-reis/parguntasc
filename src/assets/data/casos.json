@@ -4,87 +4,103 @@
         {
             "title": "Sinhá Vitória",
             "id":1,
-            "text": "Você está no 1º ano de Medicina, em plantão na maternidade Mater pela disciplina de Primeiros Socorros. Victor, seu colega do 5º ano, te convida a ir ao alojamento conjunto (onde ficam as mães com seus recém-nascidos), e a vê-lo examinar Vitória, 17 anos, mãe de João, nascido há 6 dias. Ao exame, Victor constata que Vitória está bem. No entanto, João vomitou após as primeiras mamadas; na investigação, foi diagnosticado galactosemia, uma condição genética recessiva que contraindica o leite materno (uma situação rara). Assim, João precisaria receber uma fórmula láctea adaptada. Ela terá alta da Mater, e irá manter os cuidados de saúde dela e de João no centro de saúde perto de casa. Contudo, Vitória está preocupada porque não tem dinheiro para comprar essa fórmula láctea adaptada para João. _ Lá em casa moram: eu, minha mãe, que também está sem trabalho, e meu outro filho de um ano e meio de idade. Mês que vem, vou morar com o pai dos meninos, mas ele também está sem trabalho agora. _ Você tem outro filho de um ano e meio de idade? É importante dar um intervalo de dois anos para engravidar, e que a gravidez seja planejada e desejada. _ Eu sei..., eu e meu marido usávamos camisinha, mas falhou."
+            "image": "assets/img/oie_transparent.png",
+            "text": "Você está no 1º ano de Medicina, em plantão na maternidade Mater pela disciplina de Primeiros Socorros. Victor, seu colega do 5º ano, te convida a ir ao alojamento conjunto (onde ficam as mães com seus recém-nascidos), e a vê-lo examinar Vitória, 17 anos, mãe de João, nascido há 6 dias. Ao exame, Victor constata que Vitória está bem. No entanto, João vomitou após as primeiras mamadas; na investigação, foi diagnosticado galactosemia, uma condição genética recessiva que contraindica o leite materno (uma situação rara). Assim, João precisaria receber uma fórmula láctea adaptada. Ela terá alta da Mater, e irá manter os cuidados de saúde dela e de João no centro de saúde perto de casa. Contudo, Vitória está preocupada porque não tem dinheiro para comprar essa fórmula láctea adaptada para João. _ Lá em casa moram: eu, minha mãe, que também está sem trabalho, e meu outro filho de um ano e meio de idade. Mês que vem, vou morar com o pai dos meninos, mas ele também está sem trabalho agora. _ Você tem outro filho de um ano e meio de idade? É importante dar um intervalo de dois anos para engravidar, e que a gravidez seja planejada e desejada. \n\n\n _ Eu sei..., eu e meu marido usávamos camisinha, mas falhou."
         },
         {
             "title": "O pai ausente",
             "id":2,
+            "image": "assets/img/oie_transparent.png",
             "text": "O pai de Vitória, Sr. Antônio Magalhães, tem 50 anos de idade e é fazendeiro. Era casado quando se envolveu com a mãe de Vitória, e ameaçou matá-la se o caso tornasse público.  Sr. Antônio jamais foi conhecer Vitória. A mãe de Vitória poderia buscar seus direitos na justiça, mas tem medo de fazer isso. Sr. Antônio é de classe média, com condições para pagar um plano de saúde privado (convênio), porém se recusa, pois considera o preço abusivo. Um dia, ele andava no centro da cidade quando sentiu forte dor no peito e caiu. Em frente havia um hospital particular. Um médico e um enfermeiro, funcionários deste hospital  viram o  Sr.  Antônio cair, correram para saber o que aconteceu, e verificaram que o Sr. Antônio não respirava e estava sem pulso."
         },
         {
             "title": "A carta",
             "id":3,
+            "image": "assets/img/oie_transparent.png",
             "text": "Você está no Núcleo de Saúde da Família 1, pela disciplina de ASC, e acompanha o Dr. Gaspar na consulta com Fabiano, Vitória e seus filhos. Vitória: “Eu trouxe o Fabiano porque falaram que é bom o pai estar junto na consulta do bebê. Eu vou mudar pra casa dele, é lá no bairro Alagoas. Lá é ruim porque não tem posto de saúde nem creche. Eu não sei cuidar direito deste mais novo, e sem creche com quem eu vou deixar as crianças pra ir trabalhar mais pra frente?” Gaspar: “Sim, eu passo por lá quando chego de viagem. Tem muito lixo e esgoto a céu aberto. É onde mais precisaria de creche e serviços de saúde!” Vitória: “Pois é! Mas esses políticos não fazem nada.” Você: “Será que a gente não pode fazer algo pra ajudar?” Fabiano: “Um vizinho meu representa nosso bairro lá na secretaria de saúde. Ele leva os problemas da gente pra lá, mas ninguém resolve.” Gaspar termina de examinar as crianças, e vocês saem para discutir o caso da família. Gaspar: “Você perguntou se poderíamos fazer algo. Bom, vou te explicar como funciona o sistema de saúde, e vamos ver como você pode ajudá-los. No centro da cidade fica a secretaria municipal de saúde. Lá, o Conselho se reúne todo mês, e tem representantes da população de vários bairros (como o vizinho de Fabiano), além de profissionais de saúde e gestores. Eles discutem sobre o orçamento pra saúde, quais programas de saúde incentivar, enfim, sobre o planejamento de saúde da cidade”. Você: “Tá... E daí?” Gaspar: “Você pode enviar uma carta para esse Conselho, reivindicando melhorias naquele bairro. E para defender com mais peso sua reivindicação, seria importante você se embasar nos princípios do SUS. Você conhece os princípios?”"
         },
         {
             "title": "O pai de Sinhá Vitória",
             "id":4,
+            "image": "assets/img/oie_transparent.png",
             "text": "Você está no Núcleo de Saúde da Família 1, pela disciplina de ASC, acompanhando a Dra Lívia. Quem vem à consulta é o Sr. Antônio (o pai de Vitória). Sr. Antônio lhes conta que, após o susto do infarto, resolveu fazer um plano de saúde privado e começar um check-up. Foi informado pelo médico de que precisaria fazer alguns exames de laboratório, mas em seguida descobriu que o plano não oferecia cobertura para alguns dos exames pedidos pelo médico. Foi sugerido a ele que procurasse uma Unidade Básica de Saúde (UBS) para contornar o problema. Assim, o Sr. Antônio pediu para ser cadastrado no Núcleo e uma consulta médica para solicitação dos exames. "
         },
         {
             "title": "A mãe de Vitória",
             "id":5,
+            "image": "assets/img/oie_transparent.png",
             "text": "Em um domingo, Vitória foi visitar sua mãe, dona Glória. Estavam almoçando quando dona Glória sentiu uma forte dor de cabeça, e então s membros direitos - o braço e a perna ficaram pesados, a boca torta, e a fala enrolada. Vitória, sem saber o que fazer, correu ao vizinho para ajudá-la."
             
         },
         {
             "title": "Tomás da Bolandeira",
             "id":6,
+            "image": "assets/img/oie_transparent.png",
             "text": "Ainda na disciplina de ASC, você encontra Fabiano na porta da unidade de Saúde da Família. Ele te aborda, pedindo ajuda: “Sabe o que é, doutora: tenho um amigo, seu Tomás da Bolandeira, gente boa demais. Ele mora em Jardinópolis, cidade pequena aqui do lado de Ribeirão. Ele está com dor nas costas e nas pernas há um ano, e não foi ao médico ainda. Ele viu na internet que pelo que sente, parece ser hérnia de disco, e pra isso precisa de médico especialista em osso. E também precisa de um exame de ressonância. E uma colega minha que trabalha no HC do campus falou que esse médico e esse exame só tem lá no HC. To vendo no seu jaleco que você é de lá. Então, se ele for lá os médicos atendem ele? Vocês não vão negar ajuda pro meu irmão, né?”"
             
             },
         {
             "title": "O seguimento da mãe de Vitória",
             "id":7,
+            "image": "assets/img/oie_transparent.png",
             "text": "Você está no 5º ano, no ambulatório de neurologia do HC (nível terciário) e recebe dona Glória, 61 anos, acompanhada pela filha Vitória. Dona Glória teve um AVC há 1 mês. Vitoria contou com a ajuda do vizinho, que chamou o SAMU-192 no episódio. Após o tratamento na Unidade de Emergência do HC, dona Glória voltou para casa, com retorno agendado na especialidade Neurologia do HC Campus. Desde então, é acompanhada nesse ambulatório, com consultas a cada três meses. Dona Glória tem dificuldade de preensão na mão direita e para andar, às vezes sente fortes dores pelo corpo, e se sente infeliz devido às dificuldades para realizar os afazeres de casa. Ela não faz consulta em nenhum outro lugar além deste ambulatório."
             },
         {
             "title": "O filho mais novo",
             "id":8,
+            "image": "assets/img/oie_transparent.png",
             "text": "Anos à frente, você está na residência médica e lhe oferecem um plantão no posto de saúde inaugurado no bairro Alagoas (em parte graças à sua carta de reivindicação). Lá, chegam à consulta Vitória, com 23 anos, e seu filho mais novo, com 6 anos. “O menino tá com diarreia, doutora. Reclama de dor de barriga, tá indo toda hora no banheiro, vai fazer cocô e só sai água! Ele já teve um monte de diarreia esse ano, eu levava ele no postinho do bairro vizinho para tratar. Já deram soro, antibiótico, mas a diarreia volta.” Você decide investigar um pouco melhor o caso (apesar da fila de pacientes e do curto tempo para as consultas), e descobre que o menino não sabe ler ou fazer contas, e reclama bastante de dor de cabeça na escola. O posto de atenção primária de Alagoas tem apenas você como médica e um enfermeiro para a pré e pós-consulta. Ainda assim, Vitória dá “graças a Deus, porque agora tem médico aqui no bairro.”"
             
             },
         {
             "title": "Fabiano",
             "id":9,
+            "image": "assets/img/oie_transparent.png",
             "text": "Fabiano tem pressão alta e insuficiência cardíaca (“coração dilatado” pela doença de Chagas), e faz seguimento na Unidade de Saúde da Família (USF) do bairro. Em janeiro, dias após os churrascos de Natal e Ano Novo, Fabiano sentiu piora da falta de ar, vindo aos pequenos esforços, e piora do inchaço nas pernas. Buscou o CSF e, após rápida avaliação médica, foi chamada uma ambulância para levá-lo à Unidade Distrital de Saúde (UBDS) mais próxima. Na UBDS, Fabiano foi internado, foram iniciadas as medidas para insuficiência cardíaca descompensada, e ele foi encaminhado à Unidade de Emergência do HC. Neste hospital, Fabiano melhorou, recebendo alta com novas medicações e orientações. Fabiano vem à consulta no CSF com a receita médica emitida na alta do HC. Diz que recebeu orientações para comer pouco sal e não fazer exercícios muito fortes. Diz que fez um ultrassom do coração, e que o laudo ficou no HC, e que no ultrassom o coração ficou um pouco pior."
             },
         {
             "title": "O coração de Vitória",
             "id":10,
+            "image": "assets/img/oie_transparent.png",
             "text": "Anos à frente, você está trabalhando como médica do centro de Saúde da Família do bairro Alagoas.Vitória, já mais velha, vem à consulta de rotina dizendo que tem sentido batedeira e dor no peito aos esforços, que melhora após alguns minutos de descanso. Você a examina, e suspeita de angina estável por má circulação dos vasos do coração. Para melhor avaliação, é necessário o exame de teste ergométrico (em que o paciente fica na esteira, monitorizado, para avaliar a função cardiovascular quando submetido a esforço de crescente intensidade). Como este exame não é disponível no nível primário, você preenche uma guia de encaminhamento à prefeitura, relatando o caso e justificando a necessidade do exame. Três meses depois, Vitória retorna para consulta. Você então pergunta sobre o exame: “Ah sim, doutora, eu fiz o exame. O médico de lá falou que foi tudo bem, que eu tava de alta, e podia voltar quando quisesse.” “Te deram um papel com o resultado?” “ Não deram não, doutora.”"
             },
         {
             "title": "Bairro Alagoas",
             "id":11,
+            "image": "assets/img/caso11.png",
             "text": "Ao instalar a equipe de Saúde da Família no bairro Alagoas, vocês fizeram a territorialização, e observaram o seguinte perfil:"
         },
         {
             "title": "Os calouros",
             "id":12,
+            "image": "assets/img/oie_transparent.png",
             "text": "Você recebe os alunos do 1º ano de medicina na unidade de saúde em que trabalha e conta do tempo em que era aluna, de quando conheceu a família de Vitória, o que aprendeu sobre Atenção Primária e por que escolheu a Medicina de Família. Por fim, sugere um desafio: “No último Congresso Brasileiro de Saúde da Família, os pesquisadores observaram que a incidência de DST (principalmente HIV, sífilis e hepatites) nas mulheres de 40 a 65 anos está aumentando, embora as doenças sejam subdiagnosticadas. Muitas vezes isso ocorre porque seus maridos têm casos extraconjugais sem uso de preservativo e transmitem tais doenças às esposas. Porém, não sabemos qual a realidade da população atendida pela nossa unidade e precisamos saber como as coisas estão em nosso território para tomar ações direcionadas. Qual será a prevalência dessas doenças e como podemos agir em prevenção e diagnóstico precoce? O que vocês sugerem?”"
             },
         {
             "title": "Terminalidade da vida",
             "id":13,
+            "image": "assets/img/oie_transparent.png",
             "text": "Você está no 5º ano, no Hospital Estadual de Ribeirão Preto. Vitória está acompanhando sua sogra Graciliana, 81 anos, internada devido a uma úlcera de pressão. Dona Graciliana tem doença de Alzheimer avançada, é incapaz de sair da cama, e dependente para os cuidados (alimentação, higiene). Você relembra a aula de geriatria: as úlceras de pressão ocorrem em acamados ou cadeirantes, atingindo pontos ósseos (região sacral, laterais da coxa e tornozelos); a melhor abordagem é a prevenção, aliviando os pontos de pressão com colchões adequados, movendo o paciente sem arrastá-lo, e trocá-lo de posição a cada 2 horas. Graciliana está indo de alta. Vitória, ao receber suas orientações, diz: “Doutor, estou com medo de voltar pra casa. Tá muito difícil cuidar de minha sogra. O Fabiano fica o dia inteiro fora, e os meninos são pequenos pra ajudar. Eu não consigo trocar ela de posição do jeito certo como fazem aqui, esqueço os remédios, é difícil até de dar banho nela. É a terceira vez que ela interna por conta de úlcera. Não quero de jeito nenhum colocar ela em um asilo, inclusive porque ela falava que não queria isso para ela.”"
             
             },
         {
             "title": "Cuidados ao idoso",
             "id":14,
+            "image": "assets/img/oie_transparent.png",
             "text": "Você é médica da Unidade de Saúde da Família de Alagoas. A agente comunitária fez uma visita domiciliar à casa vizinha de Vitória e Fabiano, e relata o caso para a equipe: Lá moram Macabéa e seu filho caçula Olímpico. Macabéa é viúva, 75 anos, hipertensa e teve um AVC há 3 anos. Última consulta médica há 1 ano no pronto-socorro. Olímpico é divorciado, 35 anos e hipertenso, com última consulta médica há cerca de 3 anos. Macabéa tem dificuldade para andar desde o AVC há 1 ano. Já teve várias quedas, por isso tem medo de andar e prefere ficar na cama. Olímpico é motoboy, e fica a maior parte do tempo na rua. Sai de manhã e deixa com a mãe um pacote de fraldas do lado da cama e alguns biscoitos, frutas e água. Vem em casa em alguns momentos para dar comida e ajudar a mãe nos cuidados de higiene.  A neta mais velha, de 20 anos, tentou morar um tempo na casa para ajudar nos cuidados, mas ficou sobrecarregada e apresentou conflito com a paciente. Macabéa toma banho apenas 3 vezes por semana. Na visita, observamos cheiro de urina e umidade no colchão dela. Sobre atividades de lazer, a paciente vê TV o dia todo e sente-se muito só. O filho gosta de pescar e, nos fins de semana e feriados, viaja, momentos em que a paciente fica sob cuidados dos netos que vão à casa em alguns horários do dia. De recursos financeiros, Macabéa é aposentada com 1 salário mínimo, e o filho ganha 1 salário mínimo mais comissão."
             
             },
         {
             "title": "Baleia",
             "id":15,
+            "image": "assets/img/oie_transparent.png",
             "text": "Sr. Pedro, 60, e Sra. Dora, 54, moram duas casas abaixo de Vitória e Fabiano. Os meninos de Vitória frequentam constantemente a casa de Sr. Pedro, para ouvir histórias dele. Desde pequenos eles o chamam de Baleia, devido à obesidade que Sr. Pedro apresentava. No entanto, há 1 ano Sr. Pedro foi diagnosticado com câncer de próstata e metástase de coluna. Desde então, perdeu bastante peso e ficou paraplégico. Sr. Pedro é acompanhado no HC Campus, com retornos mensais para receber quimioterapia. Porém, ele não tem como se locomover por meios próprios até o hospital. Sra. Dora, receosa pelo companheiro, tem estado mais triste recentemente e já teve depressão no passado."
             
             },
         {
             "title": "O filho mais velho",
             "id":16,
+            "image": "assets/img/oie_transparent.png",
             "text": "Vitória vem à Unidade de Saúde da Família, trazendo o filho mais velho para a consulta de rotina. Você observa que o adolescente está acima do peso, não realiza atividades físicas e está indo mal na escola. Você logo nota que não é um caso isolado: o número de jovens obesos e sedentários no bairro tem aumentado bastante. Você comenta isso com a agente comunitária, e ela observa: “Parece que neste ano mudou o diretor da escola do bairro e houve alguns problemas. As crianças estão comprando mais salgados e refrigerante na cantina, apesar da merenda continuar sendo servida na escola. Os alunos não comparecem às aulas de educação física, preferindo ficar se comunicando pelo celular.” Você organiza algumas medidas: 1. Orientar as mães a não darem dinheiro para as crianças, e sim que estas levem um lanche saudável de casa para a escola, caso não queiram almoçar no refeitório. 2. Sugerir estratégias para que as aulas de educação física sejam mais motivadoras, buscando maior participação dos estudantes."
 
             
